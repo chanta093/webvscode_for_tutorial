@@ -1,28 +1,31 @@
 
 順番にターミナルで実行していく
 
-
 1.
 ```
-python -m venv myenv
+git clone https://github.com/chanta093/webvscode_for_tutorial.git
 ```
 2.
 ```
-source myenv/bin/activate
+python -m venv myenv
 ```
 3.
 ```
-pip install --upgrade pip
+source myenv/bin/activate
 ```
 4.
 ```
-sudo apt-get update
+pip install --upgrade pip
 ```
 5.
 ```
-sudo apt-get install build-essential
+sudo apt-get update
 ```
 6.
+```
+sudo apt-get install build-essential
+```
+7.
 ```
 wget http://prdownloads.sourceforge.net/ta-lib/ta-lib-0.4.0-src.tar.gz
 tar -xvzf ta-lib-0.4.0-src.tar.gz
@@ -33,11 +36,11 @@ sudo make install
 cd ..
 ```
 
-7.
+8.
 ```
 pip install TA-Lib
 ```
-8.
+9.
 ```
 pip install -r requirements.txt
 ```
