@@ -1,5 +1,8 @@
 1.
+```
 >  python -m venv myenv
+```
+
 2.
 > source myenv/bin/activate
 
