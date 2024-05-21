@@ -2,22 +2,23 @@
 ```
 python -m venv myenv
 ```
-
+2.
 ```
 source myenv/bin/activate
 ```
+3.
 ```
 pip install --upgrade pip
 ```
-3.
+4.
 ```
 sudo apt-get update
 ```
-4.
+5.
 ```
 sudo apt-get install build-essential
 ```
-5.
+6.
 ```
 wget http://prdownloads.sourceforge.net/ta-lib/ta-lib-0.4.0-src.tar.gz
 tar -xvzf ta-lib-0.4.0-src.tar.gz
@@ -28,11 +29,11 @@ make
 > cd ..
 ```
 
-6.
+7.
 ```
 pip install TA-Lib
 ```
-7.
+8.
 ```
 pip install -r requirements.txt
 ```
